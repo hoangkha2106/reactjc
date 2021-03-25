@@ -1,0 +1,78 @@
+/* p {
+    color: red;
+ }  */
+
+/* .this~.is{
+    color: red;
+} */
+
+/* .this+.is {
+    color: red;
+} */
+/* specificities */
+
+/* #container p.this{
+    color: red;
+} */
+
+/* .container p.this{
+    color: yellow;
+} */
+
+.red-color{
+    color: red;
+}
+
+.container div p:first-child {
+    color: red;
+}
+
+.container div p:nth-child(2)) {
+    color:brown;
+}
+
+.container div p:nth-last-child(2){
+    color: bisque;
+}
+.container div p:only-child {
+color: yellow;
+}
+.usename:focus {
+    width: 500px;
+
+}
+.gender:checked {
+background-color: red;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+a:active {
+    color: yellow;
+}
+a:hover {
+    color: green;
+}
+.para::first-line {
+    color: red;
+}
+.para::first-letter {
+    font-size: 30px;
+}
+.para::selection {
+    background-color: black;
+    color: yellow;
+}
+.para::after {
+    display: block;
+    content: "abc";
+}
+.para::before {
+    display: block;
+    content: "123";
+}

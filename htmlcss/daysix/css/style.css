@@ -1,0 +1,70 @@
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+} */
+/* width browser bigger than 500px */
+/* @media only all and (min-width:320px) and (max-width:600px) {
+    div {
+        background-color: green;
+    }
+} */
+/* width browser smaller than 500px */
+/* @media only all and (min-width:500px) {
+    div {
+        border: 2px dotted black;
+    }
+} */
+.block {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.relative {
+    position: relative ;
+}
+.container {
+    width: 400px;
+    height: 400px;
+    background-color : grey;  
+}
+.absolute {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.grand {
+    margin-left: 150px;
+    position: relative;
+}
+.calling {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.transform:hover {
+    transition: width 2s;
+    width: 100px;
+    height: 100px;
+    sbackground-color: red;
+    /* transform: translate(50px, 50px); */
+    /* transform: rotate(45deg); */
+    /* transform: scale(2); */
+    transform: translate(50px, 50px) rotate(45deg);
+}
+.seach {
+    width: 30px;
+    transform: width 1s;
+
+}
+.seach:focus {
+    transition: width 1s, background-color: yellow;
+    width: 300px;
+    background-color: yellow;
+}

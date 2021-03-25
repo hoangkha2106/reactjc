@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="HTML,CSS,JAVASCRIPT ">
+    <title>Document</title>
+    <style>
+        table, tr, td, th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- paragraph, heading, fomatting -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci suscipit facere quas in eum nulla consequatur commodi deleniti omnis. Officia iure accusamus alias doloribus expedita maiores assumenda praesentium, adipisci necessitatibus.</p>
+    <h1 title="the biggest heading">heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    ...
+    <h6>heading 6</h6>
+
+    <b>(bold)Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, sit placeat odio accusamus dicta tempora quae iste hic veniam porro aliquid fugiat nostrum voluptates. Optio aspernatur voluptas a quae suscipit?</b>
+    <br>
+    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto delectus nobis minus accusamus ut quibusdam earum, fugiat reprehenderit magni repellat nisi necessitatibus suscipit, qui eos ipsum? Fugiat possimus non hic.</strong>
+    <hr>
+    <i>italic</i>   
+    <em>emphasized</em>
+    <small>small</small>
+    <del>1+1=3</del>
+    <ins>my's name is ins</ins>
+    <sub>sub</sub>
+    <sup>sup</sup>
+    <p>H<sub>2</sub>0</p>
+    <p>a<sup>2</sup>+b<sup>2</sup>=c<sup>2</sup></p>
+    <!-- image -->
+    <img src="" alt="no reactjs">
+    <img src="" alt="">
+    <!-- link -->
+   <a href="/dayone/bout.html">About me </a>
+   <!-- tag show data -->
+    <ul style="list-style-type: square;">
+        <li>anh</li>
+        <li>hậu</li>
+        <li>hải</li>
+    </ul>
+    <ol type="I">
+        <li>anh</li>
+        <li>khánh</li>
+        <li>kha</li>
+    </ol>
+    <!-- table -->
+    <table>
+        <caption>Class infor </caption>
+        <tr>
+            <th colspan="4">Information</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Class</th>
+            <th>Gender</th>
+    
+        </tr>
+        <tr>
+            <td>kha</td>
+            <td>25</td>
+            <td rowspan="3">reactJS</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>anh</td>
+            <td>25</td>
+            <!-- <td>reactJS</td> -->
+            <td>male</td>
+        </tr>
+        <!-- tr>td*4 -->
+        <tr>
+            <td>yen</td>
+            <td>24</td>
+            <!-- <td>reactJs</td> -->
+            <td>female</td>
+        </tr>
+    </table>
+    <!-- form -->
+    <form action="/login.php" method="GET">
+    <label for="username" id="usename">Username</label>
+    <input type="text" name="username" placeholder="enter username" required><br>
+    <!-- <input type="email" name="email" placeholder="enter email"><br> -->
+    <input type="password" name="password" placeholder="enter password"><br>
+    <!-- <input type="number" name="number" min="0" max="25"><br> -->
+    <select name="month" id="month">
+        <optgroup label="spring">
+            <option value="1">thang 1</option>
+            <option value="2">thang 2</option>
+            <option value="3">thang 3</option>
+        </optgroup>
+        <optgroup label="summer">
+            <option value="4">thang 4</option>
+            <option value="5">thang 5</option>
+            <option value="6">thang 6</option>
+        </optgroup>
+    </select>
+    <input type="radio" name="gender">
+    <label for="">male</label>
+    <input type="radio" name="gender">
+    <label for="">female</label>
+    <input type="checkbox"id="policy" name="policy">
+    <label for="policy"> i argee with your poicies</label>
+    <input type="submit" value="login">
+    </form>
+    <!-- audio, video, graphics -->
+    <audio src="./mp3/hello.mp3"></audio>
+    <video src="./video/hello.mp4"></video>
+    <!-- graphic -->
+    <svg></svg>
+   <canvas></canvas>
+
+</body>
+</html>
